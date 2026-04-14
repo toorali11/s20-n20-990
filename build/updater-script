@@ -1,9 +1,21 @@
 ui_print(" ");
-ui_print("Installing ExtremeKernel UNOFFICIAL...");
+ui_print("  *****************************");
+ui_print("  *    bubuKernel-Titan v1    *");
+ui_print("  *         S20 / N20         *");
+ui_print("  *****************************");
 ui_print(" ");
 
+
+ui_print("  [FLASH] Writing boot.img...");
 package_extract_file("files/boot.img", "/dev/block/by-name/boot");
+ui_print("  [ OK ]  boot.img");
+ui_print(" ");
+
+ui_print("  [FLASH] Writing dtbo.img...");
 package_extract_file("files/dtbo.img", "/dev/block/by-name/dtbo");
+ui_print("  [ OK ]  dtbo.img");
+ui_print(" ");
 
 ui_print("Installation done!");
+ui_print(" ");
 ui_print(" ");
