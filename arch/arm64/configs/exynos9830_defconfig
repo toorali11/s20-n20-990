@@ -5877,11 +5877,6 @@ CONFIG_SENSORS_TCS3407=y
 CONFIG_SPU_VERIFY=y
 
 #
-# KernelSU
-#
-CONFIG_KSU is not set
-
-#
 # File systems
 #
 CONFIG_DCACHE_WORD_ACCESS=y
